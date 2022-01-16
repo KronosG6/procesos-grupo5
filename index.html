@@ -14,163 +14,175 @@
 <body>
     <header>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Sobre nosotros</a>
-            <a href="#">Silabo</a>
-            <a href="#">Servicio</a>
-            <a href="#">Contacto</a>
+            <a href="#start">Inicio</a>
+            <a href="#about-us">Sobre nosotros</a>
+            <a href="#gallery">Silabo</a>
+            <a href="#service">Servicio</a>
+            <a href="#contact">Contacto</a>
         </nav>
-        <section class="textos-header">
-            <h1>Preparate para tus clases</h1>
-            <h2>con nuestra página web</h2>
+        <section id="start">
+            <section class="textos-header">
+                <h1>Preparate para tus clases</h1>
+                <h2>con nuestra página web</h2>
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C148.42,158.39 329.57,7.42 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path>
+                </svg>
+            </div>
         </section>
-        <div class="wave" style="height: 150px; overflow: hidden;" >
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C148.42,158.39 329.57,7.42 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path>
-            </svg>
-        </div>
     </header>
     <main>
-        <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Sobre Nosotros</h2>
-            <div class="contenedor-sobre-nosotros">
-                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
-                <div class="contenido-textos">
-                    <p>Somos el Grupo 5 de la asignatura de Procesos de Software del profesor Jorge Pantoja, queremos ayudarte a estar preparado a tus clases y que no te tomen por sorpresa</p>
-                    <p>Nuestro Grupo esta conformado por:</p>
-                    <h3><span>1</span>Chávez Campos, Jean Pier</h3>
-                    <h3><span>2</span>Colunche Vidarte, Miguel Andres</h3>
-                    <h3><span>3</span>Condezo Vargas, Kevin Anjelo</h3>
-                    <h3><span>4</span>Magallanes Aguero, Jeff Oneil</h3>
-                    <h3><span>5</span>Mejia Caicedo, Carlos Antonio</h3>
-                    <h3><span>6</span>Paz Anchayhua, Gerardor Ruben</h3>
+        <section id="about-us" >
+            <section class="contenedor sobre-nosotros">
+                <h2 class="titulo">Sobre Nosotros</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <p>Somos el Grupo 5 de la asignatura de Procesos de Software del profesor Jorge Pantoja, queremos ayudarte a estar preparado a tus clases y que no te tomen por sorpresa</p>
+                        <p>Nuestro Grupo esta conformado por:</p>
+                        <h3><span>1</span>Chávez Campos, Jean Pier</h3>
+                        <h3><span>2</span>Colunche Vidarte, Miguel Andres</h3>
+                        <h3><span>3</span>Condezo Vargas, Kevin Anjelo</h3>
+                        <h3><span>4</span>Magallanes Aguero, Jeff Oneil</h3>
+                        <h3><span>5</span>Mejia Caicedo, Carlos Antonio</h3>
+                        <h3><span>6</span>Paz Anchayhua, Gerardor Ruben</h3>
+                    </div>
                 </div>
-            </div>
+            </section>
         </section>
-        <section class="portafolio">
-            <div class="contenedor">
-                <h2 class="titulo">Silabo Ciclo IV</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="img/img1.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="https://drive.google.com/file/d/18Towzy223kcvfLjhoSZMygoSztnbe8C8/view?usp=sharing">
-                                <img src="img/icono1.png" alt="">
-                            </a>
-                            <p>Algoritmica II</p>
+        <section id="gallery">
+            <section class="portafolio">
+                <div class="contenedor">
+                    <h2 class="titulo">Silabo Ciclo IV</h2>
+                    <div class="galeria-port">
+                        <div class="imagen-port">
+                            <img src="img/img1.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="https://drive.google.com/file/d/18Towzy223kcvfLjhoSZMygoSztnbe8C8/view?usp=sharing">
+                                    <img src="img/icono1.png" alt="">
+                                </a>
+                                <p>Algoritmica II</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img2.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="">
-                                <img src="img/icono1.png" alt="">
-                            </a>
-                            <p>Contabilidad de Gestión</p>
+                        <div class="imagen-port">
+                            <img src="img/img2.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="">
+                                    <img src="img/icono1.png" alt="">
+                                </a>
+                                <p>Contabilidad de Gestión</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img3.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="">
-                                <img src="img/icono1.png" alt="">
-                            </a>
-                            <p>Procesos de Software</p>
+                        <div class="imagen-port">
+                            <img src="img/img3.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="">
+                                    <img src="img/icono1.png" alt="">
+                                </a>
+                                <p>Procesos de Software</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img4.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="https://drive.google.com/file/d/12MpmxVvKKSVQiG-lD_Xv96gKRMf--34l/view?usp=sharing">
-                                <img src="img/icono1.png" alt="">
-                            </a>
-                            <p>Probabilidades</p>
+                        <div class="imagen-port">
+                            <img src="img/img4.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="https://drive.google.com/file/d/12MpmxVvKKSVQiG-lD_Xv96gKRMf--34l/view?usp=sharing">
+                                    <img src="img/icono1.png" alt="">
+                                </a>
+                                <p>Probabilidades</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img5.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="https://drive.google.com/file/d/1OpQ56TnR0JGrJOF0UZ9CiZnpt8E0gJz-/view?usp=sharing">
-                                <img src="img/icono1.png" alt="">
-                            </a>
-                            <p>Sistemas Digitales</p>
+                        <div class="imagen-port">
+                            <img src="img/img5.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="https://drive.google.com/file/d/1OpQ56TnR0JGrJOF0UZ9CiZnpt8E0gJz-/view?usp=sharing">
+                                    <img src="img/icono1.png" alt="">
+                                </a>
+                                <p>Sistemas Digitales</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img6.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="https://drive.google.com/file/d/1jNZE6yv_HklAYgZD5aw0rnvKku31azaw/view?usp=sharing">
-                                <img src="img/icono1.png" alt="">
-                            </a>
-                            <p>Matemática Discreta</p>
+                        <div class="imagen-port">
+                            <img src="img/img6.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="https://drive.google.com/file/d/1jNZE6yv_HklAYgZD5aw0rnvKku31azaw/view?usp=sharing">
+                                    <img src="img/icono1.png" alt="">
+                                </a>
+                                <p>Matemática Discreta</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img7.jpg" alt="">
-                        <div class="hover-galeria">
-                            <a href="https://drive.google.com/file/d/1MBnk0-_-DtecZdwRciw2USViMu_kVvt0/view?usp=sharing">
-                                <img src="img/icono1.png" alt="">
-                            </a>
-                            <p>Innovación, Tecnología y Emprendimiento</p>
+                        <div class="imagen-port">
+                            <img src="img/img7.jpg" alt="">
+                            <div class="hover-galeria">
+                                <a href="https://drive.google.com/file/d/1MBnk0-_-DtecZdwRciw2USViMu_kVvt0/view?usp=sharing">
+                                    <img src="img/icono1.png" alt="">
+                                </a>
+                                <p>Innovación, Tecnología y Emprendimiento</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </section>
-        <section class="clientes contenedor">
-            <h2 class="titulo">Que dicen nuestros profesores</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="img/face1.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Jorge Pantoja</h4>
-                        <p>*Comentario del profesor*</p>
+        <section id="contents">
+            <section class="clientes contenedor">
+                <h2 class="titulo">Que dicen nuestros profesores</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="img/face1.jpg" alt="">
+                        <div class="contenido-texto-card">
+                            <h4>Jorge Pantoja</h4>
+                            <p>*Comentario del profesor*</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/face2.jpg" alt="">
+                        <div class="contenido-texto-card">
+                            <h4>Carlos</h4>
+                            <p>Me lo agradeceras despues</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="img/face2.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Carlos</h4>
-                        <p>Me lo agradeceras despues</p>
-                    </div>
-                </div>
-            </div>
+            </section>
         </section>
-        <section class="about-service">
-            <div class="contenedor">
-                <h2 class="titulo">Nuestros servicios</h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="img/ilustracion1.svg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, a!</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/ilustracion4.svg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, a!</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/ilustracion3.svg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, a!</p>
+        <section id="service">
+            <section class="about-service">
+                <div class="contenedor">
+                    <h2 class="titulo">Nuestros servicios</h2>
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <img src="img/ilustracion1.svg" alt="">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, a!</p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/ilustracion4.svg" alt="">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, a!</p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/ilustracion3.svg" alt="">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, a!</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </section>
     </main>
     <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Telefono</h4>
-                <p>985785632</p>
+        <section id="contact">
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Telefono</h4>
+                    <p>985785632</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Email</h4>
+                    <p>miguelc.design@gmail.com</p>
+                </div>
             </div>
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>miguelCdesign@gmail.com</p>
-            </div>
-        </div>
-        <h2 class="titulo-final">&copy; KronosG Design | Miguel Colunche</h2>
+            <h2 class="titulo-final">&copy; KronosG Design | Miguel Colunche</h2>
+        </section>
     </footer>
 </body>
 
